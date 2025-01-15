@@ -1,7 +1,7 @@
 <?php
 namespace App\Http\Library;
 use Illuminate\Http\JsonResponse;
-trait ApiHelpers
+trait ApiHelper
 {
 protected function isAdmin($user): bool
 {
